@@ -9,9 +9,7 @@ type Props = {
 function Header(props: Props) {
   return (
     <div className="App">
-      <h1>
-        {props.siteName}
-      </h1>
+      <h1>{props.siteName}</h1>
     </div>
   );
 }
